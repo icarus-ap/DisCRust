@@ -1,0 +1,17 @@
+{
+  "package_name": "DisCRust",
+  "version": "0.6.6",
+  "installer_version": "6.6.0",
+  "engine_version": "0.6.6-rust",
+  "published_at": "2026-11-08T19:02:00Z",
+  "notes": "v0.6.6: Fixed WebView2 #chat RAM spike (0x1100 sandboxed renderer working-set compaction + V8 MemoryReducer + offscreen media compaction), PiP-following Stream & Privacy pill, rounded corners, keyboard shortcuts remapper, and Direct OTA updates.",
+  "engine_js_url": "https://raw.githubusercontent.com/VoxMortis/DisCRust/main/src/injected_engine.js",
+  "main_rs_url": "https://raw.githubusercontent.com/VoxMortis/DisCRust/main/src/main.rs",
+  "native_host_cs_url": "https://raw.githubusercontent.com/VoxMortis/DisCRust/main/src/DisLiteNativeHost.cs",
+  "app_md_url": "https://raw.githubusercontent.com/VoxMortis/DisCRust/main/APP.md",
+  "sha256": {
+    "injected_engine.js": "434010b7626fdc80538064efacf70fea7b694f4c9b0380538d7b18d0999358ab",
+    "main.rs": "aa7464e6d8585aa0897fc5e02b582a609519d6b3c66456cc209d5c19b9557f69",
+    "DisLiteNativeHost.cs": "0c55608931d6eaf04a2bc05d927c4285185ea1b8fabc9bff0f328b9fbddf8ae9"
+  }
+}

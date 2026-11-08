@@ -1,0 +1,24 @@
+[package]
+name = "discrust"
+version = "0.6.6"
+edition = "2021"
+authors = ["DisCRust Project"]
+description = "DisCRust v0.6.6 — Minimalist Native Low-RAM Client & Quest Engine"
+
+[dependencies]
+tao = "=0.30.3"
+wry = "=0.44.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+ureq = { version = "2.10", features = ["json"] }
+image = { version = "0.24", default-features = false, features = ["png", "ico", "jpeg"] }
+
+[build-dependencies]
+winres = "0.1"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
